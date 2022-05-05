@@ -1,0 +1,35 @@
+{
+    "name": "vue-blame",
+    "version": "0.1.0",
+    "description": "A Vue 2 plugin for tracing the source of reactive changes.",
+    "main": "dist/index.js",
+    "module": "src/index.js",
+    "scripts": {
+        "prepare": "husky install",
+        "test": "jest"
+    },
+    "keywords": [
+        "vue",
+        "reactivity",
+        "debug",
+        "trace",
+        "analysis"
+    ],
+    "author": "Neill Robson <neill@neillrobson.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "eslint": "^8.14.0",
+        "eslint-config-prettier": "^8.5.0",
+        "husky": "^7.0.4",
+        "lint-staged": "^12.4.1",
+        "prettier": "^2.6.2"
+    },
+    "lint-staged": {
+        "**/*.{js,json,vue}": [
+            "prettier --check"
+        ],
+        "**/*.{js,vue}": [
+            "eslint"
+        ]
+    }
+}

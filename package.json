@@ -8,6 +8,10 @@
         "prepare": "husky install",
         "test": "jest"
     },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/neillrobson/vue-blame.git"
+    },
     "keywords": [
         "vue",
         "reactivity",
@@ -17,6 +21,10 @@
     ],
     "author": "Neill Robson <neill@neillrobson.com>",
     "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/neillrobson/vue-blame/issues"
+    },
+    "homepage": "https://github.com/neillrobson/vue-blame#readme",
     "devDependencies": {
         "eslint": "^8.14.0",
         "eslint-config-prettier": "^8.5.0",

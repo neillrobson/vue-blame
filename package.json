@@ -6,7 +6,8 @@
     "module": "src/index.js",
     "scripts": {
         "prepare": "husky install",
-        "test": "jest"
+        "test": "jest",
+        "build": "webpack --mode=production"
     },
     "repository": {
         "type": "git",
@@ -30,7 +31,9 @@
         "eslint-config-prettier": "^8.5.0",
         "husky": "^7.0.4",
         "lint-staged": "^12.4.1",
-        "prettier": "^2.6.2"
+        "prettier": "^2.6.2",
+        "webpack": "^5.72.1",
+        "webpack-cli": "^4.9.2"
     },
     "lint-staged": {
         "**/*.{js,json,vue}": [
